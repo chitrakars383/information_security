@@ -1,1 +1,146 @@
+#H1
+
+Should Tero wear a helmet?
+
+# Read / watch / listen and summarize
+
+- Braiterman et al 2020: Threat modeling manifesto
+
+Threat modeling is a process where potential risk to the system is identified systematically before it 
+can be exploited.
+
+# The four main questions are:
+
+1. What are we working on?
+2. What can go wrong?
+3. What are we going to do about it?
+4. Did we do a good enough job?
+
+--------------------------------------------------------
+
+- Shostack 2022: Welcome to the Worlds Shortest Threat Modeling Course
+
+We threat model to anticipate the problems before it becomes the real problem and ideally when the threat is inexpensive to 
+deal with. It starts with simple drawing or flow diagrams, which show how information moves. This helps to make the things 
+we build as secure as we need it.
+
+Thread model usex <bold>STRIDE</bold> models to identify threats.
+
+- Spoofing
+- Tampering
+- Repudiation
+- Information Disclosure
+- Denial of Service
+- Elevation of Privilege
+
+STRIDE model helps us to be structured in how we think about the threats.
+
+-------------------------------------------------------------
+
+- OWASP CheatSheets Series Team 2021
+
+Advantages of the OWASP CheatSheets
+
+1. Identify Risks Early On
+2. Improved Visibility of Target of Evaluation (TOE)
+3. Addressing Each Question
+
+--------------------------------------------------
+
+- Darknet diaries episode 92: The Pirate Bay
+
+In early 2000s, Pirate Bay was founded in Sweden by a group of people. Among those Gottfrid, Fredrik, and Peter shared
+common belief that access to the information should be free and challenged the traditional copyright laws. Pirate Bay 
+actually was like a search engine where one could find index of the content rather than the content itself. The site 
+faced immense pressure from different organizationa and government, but it managed to stay online. It became the symbol 
+of digital resistance. 
+
+I guess the money and power corrupts anything, to overcome this information should be free. 
+
+----------------------------------------------------
+
+- Security Hygiene
+
+Any users should atleast follow few basic security practices to protect themselves. It is just like locking your door 
+before you leave your home. In the online world, users should follow these steps:
+
+1. Use strong and unique password with multifactor authentication and also limiting the people with full access.
+2. Devices and softwares should be updated in timely fashion.
+3. Use Antivirus/Anti-Malware
+4. Sensitive data should be encrypted and all devices should have screen lock.
+5. Backup the data
+6. Use secure connection only
+7. Maintain log of system to enable see who logged incase of suspecious activities
+
+-------------------------------------------------
+
+- Make-belief boogie-man - a threat model for imaginary company.
+
+MediVault Health Inc. is an imaginary healthcare technology company that provides cloud based Electronic Health Record 
+System and telehealth services. 
+
+# I will use the four main questions threat modeling:
+
+1. What are we working on?
+2. What can go wrong?
+3. What are we going to do about it?
+4. Did we do a good enough job?
+
+
+We must work on securing the assets. 
+
+1. What are we working on? & 2. What can go wrong?
+
+* Patient Health Records (EHR Database) - Critical - Breach can result in fines, lost trust, and lawsuits
+* Telehealth Session Data (Real-time video/chat) - Critical - Breach can result in fines, lost trust, and lawsuits
+* Clinician Portal (Web App) - High - System goes down results in loss
+* Billing/Payment System - High - Fraud impacts revenue
+* Internal Admin Tools - Medium - Breach could lead to larger breach
+* Employee Gaming Server - Low - Can be used to breach other system
+
+3. What are we going to do about it?
+
+We must follow Risk Mitigation Strategies like limiting excess points, carry out annual review of the security, and 
+continious testing of usability and vulnerabilities.
+
+4. Did we do a good enough job?
+
+We can know that by doing the followings:
+
+- Penetrating testing
+- Keeping system current with new features
+- Annual assessment of third party vendor like payment API provider's security
+- Continuous testing
+
+-----------------------------------------------------
+
+References:
+
+1. Karvinen 2024: Information Security Course, https://terokarvinen.com/information-security/
+2. Braiterman et al 2020: Threat modeling manifesto , https://www.threatmodelingmanifesto.org/
+3. Shostack 2022: Welcome to the Worlds Shortest Threat Modeling Course , 
+https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf
+4. OWASP CheatSheets Series Team 2021: Threat Modeling Cheat Sheet , 
+https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
+5. The ultimate buyer's guide for healthcare cybersecurity platforms , 
+https://discover.claroty.com/2024-healthcare-buyers-guide-cybersecurity?_bt=705442387373&_bk=healthcare%20cybersecurity&_bm=p&_bn=g&_bg=164047316066&utm_term=healthcare%20cybersecurity&utm_campaign=search_healthcare-ot&utm_source=google&utm_medium=cpc&hsa_acc=5852707146&hsa_cam=21456928241&hsa_grp=164047316066&hsa_ad=705442387373&hsa_src=g&hsa_tgt=kwd-298990434436&hsa_kw=healthcare%20cybersecurity&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=21456928241&gbraid=0AAAAApT4iXzdy6xa9TPkjg5AyQJ7PvnAE&gclid=CjwKCAiAj8LLBhAkEiwAJjbY73v4r5Bzctf1W4JqBJ6LDl_ShnV_7GNVzcWBQ7ARRef6eYjL74XrOhoCt-UQAvD_BwE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
