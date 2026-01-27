@@ -1,12 +1,17 @@
 H2 Kill Chain
 
-According to the Lockheed Martin white paper by Hutchins, Cloppert and Amin (2011), old-fashioned, perimeter-based computer security is ineffective against new, persistent and well-funded attackers and suggests an intelligence-based computer network defence as a better option. The article presents the Intrusion Kill Chain as a model of cyber intrusion where attackers are segmented into various stages all the way to the defenders, who can identify, impair, and study the attack at any stage instead of responding to the compromise. The analysis of intrusions as components of larger adversary campaigns will allow organizations to create actionable threat intelligence, implement targeted defensive operational measures, and continually enhance their security posture, which will make attackers progressively more expensive and challenging to do so.
+According to the Lockheed Martin white paper by Hutchins, Cloppert and Amin (2011), old-fashioned, perimeter-based computer security is ineffective against new,
+persistent and well-funded attackers and suggests an intelligence-based computer network defence as a better option. The article presents the Intrusion Kill Chain as a
+model of cyber intrusion where attackers are segmented into various stages all the way to the defenders, who can identify, impair, and study the attack at any stage instead 
+of responding to the compromise. The analysis of intrusions as components of larger adversary campaigns will allow organizations to create actionable threat intelligence, implement 
+targeted defensive operational measures, and continually enhance their security posture, which will make attackers progressively more expensive and challenging to do so.
 
 Key Points
 o	The paper takes a closer look at traditional network defences like IDS, antivirus, and reactive incident response as the way to focus on vulnerabilities, which also assumes that an intrusion has succeeded. 
 o	The article warns us about the rise of Advanced Persistent Threats (ATPs). Hackers are conducting long-term campaigns, which targets sensitive information, while evading conventional defences.
 o	Hutchins proposes and AI driven defence model which incorporates threat intelligence reducing the successful intrusion over time. 
-o	Intrusion kill chain is a central model, that structures intrusions into identifiable stages and linking it to defensive action. It first detects the threat, figures out the mitigation and then makes the necessary response.
+o	Intrusion kill chain is a central model, that structures intrusions into identifiable stages and linking it to defensive action. It first detects the threat, figures out the mitigation and then makes 
+the necessary response.
 o	Grouping individual intrusions into broader adversary campaign is supported by this model.
 
 Intrusion Kill Chain 
@@ -21,11 +26,15 @@ Cyber-attacker must break down cyberattack into multiple distinct phases in intr
 
 MITRE ATTACK		
 Tactic :
-Short for MITRE Adversarial Tactics, Techniques, and Common Knowledge, MITRE ATT&CK is a knowledge base that details the different tactics and techniques that adversaries, or cyber attackers, use as well as the platforms they target, based on observations of real attacks that have occurred. Ultimately, MITRE ATT&CK improves communication throughout organizations, helping to better understand what the attacker is trying to accomplish and establishing defensive measures.
+Short for MITRE Adversarial Tactics, Techniques, and Common Knowledge, MITRE ATT&CK is a knowledge base that details the different tactics and techniques that adversaries, 
+or cyber attackers, use as well as the platforms they target, based on observations of real attacks that have occurred. Ultimately, MITRE ATT&CK improves communication throughout organizations, 
+helping to better understand what the attacker is trying to accomplish and establishing defensive measures.
 Example: PRE-ATT&CK
 
 Technique :
-Techniques are specific methods or actions uses to accomplish an objective. A technique described in MITRE ATT&CK provides insight into how attackers can reach their goals. The information provided here includes an overview of different techniques, corresponding sub-techniques, the software attackers use to perform the attack technique, and intrusion detection and prevention methods.
+Techniques are specific methods or actions uses to accomplish an objective. A technique described in MITRE ATT&CK provides insight into how attackers can reach their goals. 
+The information provided here includes an overview of different techniques, corresponding sub-techniques, the software attackers use to perform the attack technique, and intrusion 
+detection and prevention methods.
 Example technique:  Initial Access (T1566)
 
 Sub-technique :
