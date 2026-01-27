@@ -1,0 +1,42 @@
+H2 Kill Chain
+
+According to the Lockheed Martin white paper by Hutchins, Cloppert and Amin (2011), old-fashioned, perimeter-based computer security is ineffective against new, persistent and well-funded attackers and suggests an intelligence-based computer network defence as a better option. The article presents the Intrusion Kill Chain as a model of cyber intrusion where attackers are segmented into various stages all the way to the defenders, who can identify, impair, and study the attack at any stage instead of responding to the compromise. The analysis of intrusions as components of larger adversary campaigns will allow organizations to create actionable threat intelligence, implement targeted defensive operational measures, and continually enhance their security posture, which will make attackers progressively more expensive and challenging to do so.
+
+Key Points
+o	The paper takes a closer look at traditional network defences like IDS, antivirus, and reactive incident response as the way to focus on vulnerabilities, which also assumes that an intrusion has succeeded. 
+o	The article warns us about the rise of Advanced Persistent Threats (ATPs). Hackers are conducting long-term campaigns, which targets sensitive information, while evading conventional defences.
+o	Hutchins proposes and AI driven defence model which incorporates threat intelligence reducing the successful intrusion over time. 
+o	Intrusion kill chain is a central model, that structures intrusions into identifiable stages and linking it to defensive action. It first detects the threat, figures out the mitigation and then makes the necessary response.
+o	Grouping individual intrusions into broader adversary campaign is supported by this model.
+
+Intrusion Kill Chain 
+Cyber-attacker must break down cyberattack into multiple distinct phases in intrusion kill chain to achieve their objective. Typically, there are seven stages in Lockheed Martin formulation. They are:
+1.	Reconnaissance – cyber attackers selects target and gathers information about it.
+2.	Weaponization – tailored  made payload or malware is crafted when vulnerabilities is identified by the attacker.
+3.	Delivery – the attacker transmits the weapon to the target using phishing email
+4.	Exploitation – Vulnerability is exploited by triggering the payloads
+5.	Installation – attackers installs tolls/backdoors for persistence
+6.	Command & Control (C2) – attackers gains remote access to the network.
+7.	Actions on Objectives – attackers archives their goal like data theft.
+
+MITRE ATTACK		
+Tactic :
+Short for MITRE Adversarial Tactics, Techniques, and Common Knowledge, MITRE ATT&CK is a knowledge base that details the different tactics and techniques that adversaries, or cyber attackers, use as well as the platforms they target, based on observations of real attacks that have occurred. Ultimately, MITRE ATT&CK improves communication throughout organizations, helping to better understand what the attacker is trying to accomplish and establishing defensive measures.
+Example: PRE-ATT&CK
+
+Technique :
+Techniques are specific methods or actions uses to accomplish an objective. A technique described in MITRE ATT&CK provides insight into how attackers can reach their goals. The information provided here includes an overview of different techniques, corresponding sub-techniques, the software attackers use to perform the attack technique, and intrusion detection and prevention methods.
+Example technique:  Initial Access (T1566)
+
+Sub-technique :
+A sub-technique is more specific implementation of a MITRE ATT&CK technique, which captures exactly how the technique is executed.
+Example: Kernel Exploitation (T1068.001)
+
+References:
+1.	https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
+2.	https://attack.mitre.org/
+3.	https://attack.mitre.org/techniques/T1566/
+4.	https://www.coursera.org/articles/mitre-attack?utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_x_multi_ftcof_career-academy_cx_dr_bau_gg_pmax_gc_s1_en_m_hyb_23-12_desktop&campaignid=20858198824&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&creativeid=&assetgroupid=6490027433&targetid=&extensionid=&placement=&gad_source=1&gad_campaignid=20854471652&gbraid=0AAAAADdKX6bYhqjpHQ2QIIniNUPh10UJv&gclid=Cj0KCQiA4eHLBhCzARIsAJ2NZoIbVE7OafnPXVF0_1h9iQjGW5WNj1CoO4lOHT0gC-yFKwv-QCq4FMoaAg6KEALw_wcB
+5.	https://youtu.be/iOkkAfVAFyc?si=s2cqV51mKRXm6euS 
+
+
